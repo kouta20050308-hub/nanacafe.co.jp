@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nanacafe | 穏やかな時間をあなたに</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">nanacafe</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#concept">Concept</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#access">Access</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>一杯の中に。<br>新たな”むすび”を</h1>
+            <p>A serene space for your coffee break.</p>
+        </div>
+    </section>
+
+    <section id="concept" class="section concept">
+        <div class="container">
+            <h2 class="section-title">Concept</h2>
+            <div class="concept-grid">
+                <div class="concept-text">
+                    <h3>一杯の中に。<br>新たな”むすび”を</h3>
+                    <p>
+                        一杯のコーヒーを通じて、学生をはじめ教職員や同窓生、地域の方々など、多様な人々をむすぶコミュニティを創造します。<br><br>
+                        地元産の豆や食材を使ったコーヒーとスイーツ。多様な人々との関わり合いで成長し新たな学び・城を得る場所としてゆったりとした時間をお過ごしください。
+                    </p>
+                </div>
+                <div class="concept-img">
+                     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="section news">
+        <div class="container">
+            <h2 class="section-title">News</h2>
+            <ul class="news-list">
+                <li>
+                    <span class="date">2026.04.14</span>
+                    <span class="tag">重要</span>
+                    <a href="#">営業再開のお知らせ</a>
+                </li>
+                <li>
+                    <span class="date">2026.05.16</span>
+                    <span class="tag">イベント</span>
+                    <a href="#">ホッケー日本リーグ出店のお知らせ</a>
+                </li>
+                <li>
+                    <span class="date">2026.06.07</span>
+                    <span class="tag">イベント</span>
+                    <a href="#">1周年ウェーク開催のお知らせ</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="menu" class="section menu">
+        <div class="container">
+            <h2 class="section-title">Menu</h2>
+            <p class="menu-note">※クリックでカテゴリーを切り替えられます</p>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-target="drink">Drink</button>
+                <button class="tab-btn" data-target="food">Food</button>
+                <button class="tab-btn" data-target="others">Others</button>
+            </div>
+
+            <div class="menu-container">
+                
+                <div id="drink" class="menu-content active">
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4>コーヒー（ホット/アイス）</h4>
+                            <span class="price">¥300</span>
+                        </div>
+                        <p class="desc"></p>
+                        <span class="allergy">アレルギー特定原材料：なし</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4>レモネード（アイス）</h4>
+                            <span class="price">¥400</span>
+                        </div>
+                        <p class="desc"></p>
+                        <span class="allergy">アレルギー特定原材料：レモン、ハチミツ</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4>レモンスカッシュ（アイス）</h4>
+                            <span class="price">¥400</span>
+                        </div>
+                        <p class="desc"></p>
+                        <span class="allergy">アレルギー特定原材料：レモン、ハチミツ</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4>ほうじ茶ラテ（ホット/アイス）</h4>
+                            <span class="price">¥400</span>
+                        </div>
+                        <p class="desc"></p>
+                        <span class="allergy">アレルギー特定原材料：乳</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4>カフェオレ（ホット/アイス）</h4>
+                            <span class="price">¥400</span>
+                        </div>
+                        <p class="desc"></p>
+                        <span class="allergy">アレルギー特定原材料：乳</span>
+                    </div>
+                </div>
+
+                <div id="food" class="menu-content">
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4>シリアルクッキー</h4>
+                            <span class="price">¥120</span>
+                        </div>
+                        <p class="desc"></p>
+                        <span class="allergy">アレルギー特定原材料：小麦、卵、大豆</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4>マドレーヌ（プレーン/コーヒー）</h4>
+                            <span class="price">¥200</span>
+                        </div>
+                        <p class="desc"></p>
+                        <span class="allergy">アレルギー特定原材料：小麦、乳、大豆、卵</span>
+                    </div>
+                </div>
+
+                <div id="others" class="menu-content">
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4>ドリップパック</h4>
+                            <span class="price">¥600</span>
+                        </div>
+                        <p class="desc"></p>
+                        <span class="allergy">アレルギー特定原材料：なし</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="access" class="section access">
+        <div class="container">
+            <h2 class="section-title">Information</h2>
+            <div class="access-info">
+                <dl>
+                    <dt>住所</dt>
+                    <dd>〒000-0000 埼玉県飯能市阿須698 第二講義棟 1F</dd>
+                    <dt>電話番号</dt>
+                    <dd>042-972-1111</dd>
+                    <dt>営業時間</dt>
+                    <dd>12:30 - 15:30</dd>
+                    <dt>営業日</dt>
+                    <dd>毎週火曜日・水曜日・木曜日</dd>
+                    <dt>アクセス</dt>
+                    <dd>元加治駅発「駿河台大学行き」バス乗車「駿河台大学バス停」下車徒歩30秒</dd>
+                </dl>
+                <div class="map-placeholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5628.896435818062!2d139.33186779968048!3d35.831166233971565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019270540f441bb%3A0x8777bb9c06602e12!2z6ae_5rKz5Y-w5aSn5a2m!5e1!3m2!1sja!2sjp!4v1775926475615!5m2!1sja!2sjp" 
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 nanacafe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
