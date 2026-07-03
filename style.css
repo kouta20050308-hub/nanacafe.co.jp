@@ -81,7 +81,7 @@ ul {
 /* ファーストビュー */
 .hero {
     height: 100vh;
-    background-image: url('Image_20250523_142021_856.jpeg'); /* カフェのイメージ */
+    background-image: url('/css/Image_20250523_142021_856.jpeg'); /* カフェのイメージ */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -131,7 +131,7 @@ ul {
 .concept-img {
     flex: 1;
     height: 500px;
-    background-image: url('1-de38d006.png');
+    background-image: url('/css/1-de38d006.png');
     background-size: cover;
     background-position: center;
     border-radius: 8px;
